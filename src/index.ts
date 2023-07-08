@@ -1,13 +1,13 @@
-import express, { Application } from 'express';
-import {
+const express = require('express');
+const cors = require('cors');
+const {
   createNewChat,
   getAllChat,
   moderationAI,
   runMongoDb,
-} from './01-controllers/mongo';
-import cors from 'cors';
+} = require('./01-controllers/mongo');
 
-const app: Application = express();
+const app = express();
 const port = 4000;
 app.use(express.json());
 app.use(cors());
