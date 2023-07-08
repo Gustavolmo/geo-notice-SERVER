@@ -4,7 +4,7 @@
   "description": "API for the notice-board app",
   "main": "index.ts",
   "scripts": {
-    "start": "npm run build && node dist/index.js",
+    "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
     "heroku-postbuild": "npm run build"
@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
-    "@types/node": "^18.14.6",
+    "@types/node": "^18.16.19",
     "@types/uuid": "^9.0.1",
     "nodemon": "^2.0.21",
     "ts-node": "^10.9.1"
