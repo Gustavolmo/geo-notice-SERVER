@@ -47,5 +47,5 @@ app.post('/api/chat', async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`\nAPP ENAGED ON PORT ${port} (o.o)\n`);
+  console.log(`\nPORT ${port} ENGAGE! |o.o|\n`);
 });
