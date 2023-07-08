@@ -4,8 +4,8 @@
   "description": "API for the notice-board app",
   "main": "index.ts",
   "scripts": {
-    "dev": "nodemon src/index.ts",
-    "start": "node src/index.ts"
+    "start": "node src/index.ts",
+    "dev": "nodemon src/index.ts"
   },
   "keywords": [],
   "author": "",
